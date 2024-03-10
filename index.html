@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+<style>
+    .navvbar{
+            display: flex;
+            align-items: center;
+        }
+        .icon{
+            height: 30px;
+        }
+        .search-bar{
+            width: 530px;
+            height: 5px;
+            margin-left: 200px;
+            border-radius: 30px 0 0 30px;
+            padding: 18px;
+            font-size: 17px;
+            border: 1px solid #cccccc;
+        }
+        .search-logo{
+            background-color: #f2f2f2;
+            height: 38px;
+            width: 70px;
+            border-radius: 0 30px 30px 0;
+            border: 1px solid #cccccc;
+  
+        }
+        .voice-icon{
+            height: 18px;
+            margin: 10px 10px;
+        }
+        .voice{
+            background-color: #f2f2f2;
+            border-radius: 50%;
+            margin-left: 15px;
+        }
+        .sidebar{
+            width: 50px;
+            margin-left: 10px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .s-icon{
+            height: 20px;
+        }
+        .thumb-img{
+            border-radius: 10px;
+        }
+    .thumnail-img{
+        width: 100%;
+        height: 250px;
+        border-radius: 8px;
+    }
+    .thumnail-img:hover{
+        border-radius: 0px;
+    }
+    .text-color{
+        color: #aaaaaa
+    }
+    .dot{
+        font-size: 8px;
+    }
+    .channel-logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .form{
+        width: 600px;
+    }
+</style>
+</head>
+<body class="bg-light">
+
+    <div class="navvbar mt-2">
+        <div>
+            
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img src="./IMG/hamburger.png" class="icon ms-2"></button>
+            <div class="offcanvas offcanvas-start"  style="width: 240px;" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <img src="./IMG/hamburger.png" class="icon">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>    
+                <div class="offcanvas-body">
+                    <div class="offc-b mx-2">
+                        <img src="./IMG/house-black-silhouette-without-door.png" style="height: 20px;">
+                        <span class="ms-4">Home</span>
+                    </div>
+                    <div class="offc-b mt-3 ">
+                        <img src="./IMG/shorts.jpg" style="height: 30px;" >
+                        <span class="ms-4">Shorts</span>
+                    </div>
+                    <div class="offc-b mt-3 mx-1">
+                        <img src="IMG/subscribe.png" class="s-icon">
+                        <span class="ms-4">Subscriptions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="./IMG/youtube.png" class="icon ms-2">
+        </div>
+        <div>
+            <input type="text" placeholder="Search" class="search-bar">
+        </div>
+        <div class="search-logo">
+            <img src="./IMG/search-logo.png" style="height: 25px; margin: 5px 20px;">
+        </div>
+        <div class="voice">
+            <img src="./IMG/voice.png"class="voice-icon">
+        </div>
+        <div style="margin-left: 180px;">
+            <img src="./IMG/bell.png" style="height: 25px;"> 
+        </div>
+        <div style="margin-left: 30px;">
+            <img src="./IMG/user.png"class="icon">   
+        </div>
+    </div>
+
+    <div class="d-flex">
+        <div class="sidebar">
+            <div>
+                <img src="./IMG/house-black-silhouette-without-door.png" class="s-icon"><br>
+                <span style="font-size: 10px;">Home</span>
+            </div>
+            <div style="margin-top: 30px;">
+                <img src="./IMG/shorts.jpg" style="height: 30px;"><br>
+                <span style="font-size: 10px;">Shorts</span>
+            </div>
+            <div class="mt-4">
+                <img src="./IMG/subscribe.png" class="s-icon" style="margin-left: 20px;"><br>
+                <span style="font-size: 10px;">Subscriptions</span>
+            </div>
+        </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/carry-thumbnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/carry-logo.png" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">MOTIVATIONAL SPEAKER PARODY </p>
+                            <span class="text-color d-block">CarryMinati</span>
+                            <span class="text-color">41.4M subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/sandeep-thumbnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/sandeep-logo.png" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">How To Make Money From Money?</p>
+                            <span class="text-color d-block">Sandeep maheshwari</span>
+                            <span class="text-color">28.5M subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">6 Months ago</span>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/smasher-thmbnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/smashers-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">Top Career Options after Graduation in 2024</p>
+                            <span class="text-color d-block">Gate smashers</span>
+                            <span class="text-color">1.81M subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">7 ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/5-minute-thumbnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/5-minute.-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">Complete Data Structures</p>
+                            <span class="text-color d-block">5 Minutes Engineering</span>
+                            <span class="text-color">585K subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">2 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/dinesh-thumbnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/dinesh-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">MHT-CET Class 11 MATHS-1</p>
+                            <span class="text-color d-block">Dinesh sir</span>
+                            <span class="text-color">1.03M subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">1 years ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/khan-thumbnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/khan-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">Khan Sir Motivational video</p>
+                            <span class="text-color d-block">Upsa Ritesh Ratan</span>
+                            <span class="text-color">4.73K subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">4 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/crazy-thubnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/crazy-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">100 Years Old Kerosin Fan</p>
+                            <span class="text-color d-block">Crazy XYZ</span>
+                            <span class="text-color">29.7M subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">6 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/Pradip-thubnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/pradip-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">Linear Differential Equation</p>
+                            <span class="text-color d-block">Pradeep Giri Academy</span>
+                            <span class="text-color">179K subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="text-light mt-3">
+                    <img src="./IMG/sonu-thubnail.jpg" class="img-fluid thumnail-img">
+                    <div class="d-flex">
+                        <div>
+                            <img src="./IMG/sonu-logo.jpg" alt="carry-logo" class="channel-logo img-fluid mt-2 mx-2">
+                        </div>
+                        <div>
+                            <p class="fw-bold">STOP Comparing YOURSELF</p>
+                            <span class="text-color d-block">SONU SHARMA</span>
+                            <span class="text-color">11.4M subscribers</span> 
+                            <span class="text-color m-1 dot py-1">&#9679</span> 
+                            <span class="text-color">5 Years ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
